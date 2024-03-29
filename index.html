@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Dev</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./img/logo.jpg" alt="">
+            </div>
+            <h1>Sterchfr Cat</h1>
+            <h2>Programador Web / front-end</h2>
+            <div class="redes">
+                <a href="https://discord.gg/FCJ8dqpBZ3" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.roblox.com/users/824590430/profile" target="_blank"><i class="fa-brands fa-roblox fa-r"></i></a>
+                <a href="https://github.com/DinoSterchs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.tiktok.com/@rabbit_junks" target="_blank"><i class="fa-brands fa-tiktok fa"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Cat Sterchfr.</span> un apasionado desarrollador de juegos 🎮 y sitios web 🖥️ con base en la hermosa Perú. Con una sólida experiencia en la creación de experiencias interactivas y atractivas, mi objetivo es siempre llevar la diversión 🎉 y la funcionalidad al siguiente nivel. Mi portafolio es un viaje a través de mundos virtuales llenos de personajes vibrantes 🦸‍♀️🦹‍♂️ y sitios web dinámicos diseñados para capturar la esencia de la marca 💼 y conectar con el usuario 👥. Cada proyecto es un testimonio de mi amor por el código 💻 y el diseño 🎨, y refleja mi compromiso con la calidad 🏅 y la innovación 💡. Así que pónganse cómodos, exploren y disfruten del viaje. ¡Estoy emocionado de compartir mi trabajo con ustedes! 😊".</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06-10-2005
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 983 890 857
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sharksterchfs@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.PortafolioSterchfrCat.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                             Peru - Lima
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
